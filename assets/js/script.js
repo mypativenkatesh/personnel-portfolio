@@ -313,7 +313,6 @@ class PortfolioApp {
         const roles = [
             'Full Stack Developer',
             // 'Computer Science Student',
-            'AI Enthusiast',
             'Problem Solver',
             'Creative Thinker',
             'Tech Explorer'
@@ -811,8 +810,8 @@ class PortfolioApp {
             this.projects = data.projects;
             this.categories = data.categories || [
                 { id: "all", name: "All", icon: "fas fa-th-large", visible: true },
-                { id: "web", name: "Web Dev", icon: "fas fa-globe", visible: true },
-                { id: "automation", name: "Automation", icon: "fas fa-robot", visible: true }
+               
+               
             ];
         } catch (error) {
             console.error('Error loading projects:', error);
@@ -824,13 +823,13 @@ class PortfolioApp {
                     description: "A responsive personal website showcasing projects with modern design patterns and animations.",
                     technologies: ["HTML5", "CSS3", "JavaScript", "Modern Design"],
                     category: "web",
-                    githubUrl: "https://github.com/rushhiii/portfolio",
+                    githubUrl: "https://github.com/mypativenkatesh",
                     liveUrl: "#",
                     featured: true
                 },
                 {
                     id: 2,
-                    title: "Task Management System",
+                    title: "Advanced Authentication Management System",
                     description: "Full-stack web application for task management with real-time updates and user authentication.",
                     technologies: ["React", "Node.js", "MongoDB", "Express"],
                     category: "web",
@@ -838,21 +837,12 @@ class PortfolioApp {
                     liveUrl: "#",
                     featured: true
                 },
-                {
-                    id: 3,
-                    title: "AI Chatbot Assistant",
-                    description: "Intelligent chatbot using natural language processing for automated customer support.",
-                    technologies: ["Python", "Machine Learning", "NLP", "TensorFlow"],
-                    category: "ai",
-                    githubUrl: "https://github.com/rushhiii/ai-chatbot",
-                    liveUrl: "#",
-                    featured: true
-                }
+                
             ];
             this.categories = [
                 { id: "all", name: "All", icon: "fas fa-th-large", visible: true },
-                { id: "web", name: "Web Dev", icon: "fas fa-globe", visible: true },
-                { id: "automation", name: "Automation", icon: "fas fa-robot", visible: true }
+                
+               
             ];
         }
     }
