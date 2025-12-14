@@ -964,6 +964,7 @@ class PortfolioApp {
         `);
 
         // Second button logic
+        
         return buttons.join('');
     }
 
