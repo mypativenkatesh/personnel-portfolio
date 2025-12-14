@@ -5,8 +5,11 @@
 A modern, responsive portfolio website showcasing my work as a Computer Science student and frontend developer.  
 Built using **HTML5, CSS3, and vanilla JavaScript**, with a strong focus on performance, accessibility, and clean UI.
 
+ HEAD
 🌐 **Live Website:**https://github.com/mypativenkatesh  
 📂 **Source Code:** https://mypativenkatesh.github.io/personnel-portfolio/
+
+
 
 ---
 
@@ -32,8 +35,11 @@ Built using **HTML5, CSS3, and vanilla JavaScript**, with a strong focus on perf
 ## 🚀 Getting Started
 
 Clone the repository:
-```bash
+```bas HEAD
 git clone https://mypativenkatesh.github.io/personnel-portfolio/
+=======
+git clone  https://mypativenkatesh.github.io/personnel-portfolio/
+ 
 cd Website-Portfolio
 ```
 
