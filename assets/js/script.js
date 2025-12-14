@@ -964,27 +964,7 @@ class PortfolioApp {
         `);
 
         // Second button logic
-        if (project.liveUrl && project.liveUrl !== '#' && project.liveUrl !== null) {
-            // Has live demo
-            const liveLabel = project.liveLabel || 'Live Demo';
-            const liveIcon = project.liveIcon || 'fas fa-external-link-alt';
-            buttons.push(`
-                <a href="${project.liveUrl}" target="_blank" rel="noopener" class="btn btn-primary">
-                    <i class="${liveIcon}"></i>
-                    <span>${liveLabel}</span>
-                </a>
-            `);
-        } else if (project.secondButton !== false) {
-            // Show fallback second button only if not explicitly disabled
-            const fallbackLabel = project.fallbackLabel || 'View Project';
-            const fallbackIcon = project.fallbackIcon || 'fas fa-eye';
-            buttons.push(`
-                <a href="${project.githubUrl}" target="_blank" rel="noopener" class="btn btn-primary">
-                    <i class="${fallbackIcon}"></i>
-                    <span>${fallbackLabel}</span>
-                </a>
-            `);
-        }
+        
 
         return buttons.join('');
     }

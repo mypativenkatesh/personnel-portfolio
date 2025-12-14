@@ -8,8 +8,8 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "category": "web",
       "image": "./assets/projects/portfolio.jpg",
-      "githubUrl": "https://github.com/rushhiii/Rushi-Bashfolio",
-      "liveUrl": "https://rushi-bashfolio.netlify.app",
+      "githubUrl": "https://github.com/mypativenkatesh",
+      
       "featured": true
     },
     {
@@ -20,9 +20,7 @@
   "category": "Web Dev",
   "image": "./assets/projects/authsystem.webp",
   "githubUrl": "https://github.com/your-username/advanced-authentication-system",
-  "liveUrl": "",
-  "liveLabel": "Demo",
-  "liveIcon": "fas fa-shield-alt",
+ 
   "featured": true
 }
 
